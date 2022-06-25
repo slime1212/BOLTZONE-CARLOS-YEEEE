@@ -1,0 +1,51 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    margin: 0;
+    width: 100%;
+    cursor: default;
+}
+
+.disc {
+    border-radius: 100px;
+    width: 200px; height: 200px
+}
+
+.disc-speed { margin: 10px }
+
+.speed {
+    float: left;
+    margin-top: 20px
+}
+
+#speed {
+    font-size: 23px;
+    width: 150px;
+    cursor: default
+}
+
+.disc-volume { margin: 10px }
+
+.volume {
+    float: right;
+    margin-top: 20px
+}
+
+#volume {
+    font-size: 23px;
+    width: 150px;
+    cursor: default
+}
+
+#play {
+    font-size: 25px;
+    width: 100px
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px
+}
